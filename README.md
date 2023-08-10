@@ -20,29 +20,43 @@ it.
 
 # Usage
 
-If you're using Bundler and Capybara, it's as easy as:
+If you're using Bundler and Capybara since this is not a registered Gem
+(yet?):
 
 ```ruby
-# Gemfile
-gem 'geckodriver-midcap-helper'
+# Top of Gemfile
+git_source(:github_https) do |repo_name|
+  "https://github.com/#{repo_name}.git"
+end
+
+# Somewhere in the middle of Gemfile
+gem 'geckodriver-midcap-helper', github_https: 'midcap/geckodriver-midcap-helper'
 ```
 
 then, in `spec/rails_helper.rb` or `spec/support/capybara.rb`:
 
 ```ruby
 Capybara.register_driver :selenium do |app|
-  options = ::Selenium::WebDriver::Firefox::Options.new
-  # Uncomment line below to run firefox in headless mode
-  # options.args << '--headless'
+  browser_options = ::Selenium::WebDriver::Firefox::Options.new
+  # Uncomment lines below to run firefox in headless mode
+  # broswer_options.args << '--headless'
+  # broswer_options.args << '--disable-gpu'
 
-  Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
+  Capybara::Selenium::Driver.new(
+    app,
+    browser: :firefox,
+    options: browser_options
+  )
 end
 ```
 
 # Updating Geckodriver
 
-If you'd like to force-upgrade to the latest version of geckodriver,
-run the script `gecko_updater`
+If you'd like to upgrade to the latest version of geckodriver,
+In the repo root path:
+MacOSX
+grep -rl '0.33.0' . | xargs perl -e "s/0.33.0/0.XX.0/" -pi # Where XX is
+the newer version
 
 
 # License
