@@ -5,11 +5,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "geckodriver/bin/version"
 
 Gem::Specification.new do |s|
-  s.name        = "geckodriver-bin"
+  s.name        = "geckodriver-midcap-helper"
   s.version     = Geckodriver::Bin::VERSION
-  s.authors     = ["0rvar", "Devico Solutions"]
-  s.email       = ["orvarsegerstrom@gmail.com"]
-  s.homepage    = "https://github.com/0rvar/geckodriver-bin"
+  s.authors     = ["toomanyjoes", "Midcap Business Credit"]
+  s.email       = ["toomanyjoes@gmail.com"]
+  s.homepage    = "https://github.com/midcap/geckodriver-midcap-helper"
   s.summary     = "Easy installation and use of geckodriver."
   s.description = "Easy installation and use of geckodriver, that provides the HTTP API
 described by the WebDriver protocol to communicate with Gecko browsers, such as Firefox."

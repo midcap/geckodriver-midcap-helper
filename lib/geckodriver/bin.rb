@@ -10,7 +10,7 @@ require 'rubygems/package'
 
 module Geckodriver
   class Bin
-    DRIVER_VERSION = "v0.28.0".freeze
+    DRIVER_VERSION = "v0.33.0".freeze
 
     def run *args
       download
@@ -74,7 +74,7 @@ module Geckodriver
     end
 
     def install_dir
-      dir = File.expand_path File.join(ENV['HOME'], '.geckodriver-bin')
+      dir = File.expand_path File.join(ENV['HOME'], '.geckodriver-midcap-helper')
       FileUtils.mkdir_p dir
       dir
     end

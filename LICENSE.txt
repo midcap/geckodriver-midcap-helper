@@ -1,6 +1,6 @@
 (The MIT License)
 
-Copyright (c) 2016: [Devico Solutions LTD](http://devico.io)
+Copyright (c) 2023: [Midcap Business Credit](http://www.midcap.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
