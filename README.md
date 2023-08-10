@@ -1,6 +1,6 @@
 # geckodriver-midcap-helper
 
-*Note: This is a maintained fork of the abandoned maintained fork [geckodriver-bin](https://github.com/0rvar/geckodriver-bin) of the abandoned gem [geckodriver-helper](https://github.com/DevicoSolutions/geckodriver-helper)*
+*Note: This is a maintained fork of the abandoned more recently maintained fork [geckodriver-bin](https://github.com/0rvar/geckodriver-bin) of the abandoned gem [geckodriver-helper](https://github.com/DevicoSolutions/geckodriver-helper)*
 
 
 Easy installation and use of [geckodriver](https://github.com/mozilla/geckodriver), that provides the HTTP API 
