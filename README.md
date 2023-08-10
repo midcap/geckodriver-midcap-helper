@@ -1,4 +1,4 @@
-# geckodriver-bin
+# geckodriver-midcap-helper
 
 *Note: This is a maintained fork of the abandoned maintained fork [geckodriver-bin](https://github.com/0rvar/geckodriver-bin) of the abandoned gem [geckodriver-helper](https://github.com/DevicoSolutions/geckodriver-helper)*
 
