@@ -61,6 +61,9 @@ grep -rl '0.33.0' . | xargs perl -e "s/0.33.0/0.XX.0/" -pi # Where XX is
 the newer version
 ```
 
+Push up the resulting changes to master and run bundle on the repo that
+is using this gem.
+
 # License
 
 MIT licensed, see LICENSE.txt for full details.
