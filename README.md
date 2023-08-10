@@ -54,10 +54,12 @@ end
 
 If you'd like to upgrade to the latest version of geckodriver,
 In the repo root path:
+
 MacOSX
+```
 grep -rl '0.33.0' . | xargs perl -e "s/0.33.0/0.XX.0/" -pi # Where XX is
 the newer version
-
+```
 
 # License
 
