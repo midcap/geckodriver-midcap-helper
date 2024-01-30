@@ -19,10 +19,11 @@ described by the WebDriver protocol to communicate with Gecko browsers, such as 
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.required_ruby_version = ">= 3.1.4"
 
-  s.add_development_dependency "rspec",   "~> 3.0"
-  s.add_development_dependency "rake",    "~> 10.0"
-  s.add_development_dependency "http",    "~> 3.0"
+  s.add_development_dependency "rspec",   "~> 3.12"
+  s.add_development_dependency "rake",    "~> 12.2"
+  s.add_development_dependency "http",    "~> 5.0.4"
 
   s.add_runtime_dependency "archive-zip", "~> 0.7"
 end
