@@ -10,7 +10,7 @@ require 'rubygems/package'
 
 module Geckodriver
   class Bin
-    DRIVER_VERSION = "v0.33.0".freeze
+    DRIVER_VERSION = "v0.34.0".freeze
 
     def run *args
       download

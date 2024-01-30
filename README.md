@@ -57,7 +57,7 @@ In the repo root path:
 
 MacOSX
 ```
-grep -rl '0.33.0' . | xargs perl -e "s/0.33.0/0.XX.0/" -pi # Where XX is
+grep -rl '0.34.0' . | xargs perl -e "s/0.34.0/0.XX.0/" -pi # Where XX is
 the newer version
 ```
 
