@@ -10,7 +10,15 @@ require 'rubygems/package'
 
 module Geckodriver
   class Bin
+<<<<<<< Updated upstream
     DRIVER_VERSION = "v0.35.0".freeze
+=======
+<<<<<<< Updated upstream
+    DRIVER_VERSION = "v0.34.0".freeze
+=======
+    DRIVER_VERSION = "v0.36.0".freeze
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
     def run *args
       download
