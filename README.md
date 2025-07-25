@@ -57,15 +57,7 @@ In the repo root path:
 
 MacOSX
 ```
-<<<<<<< Updated upstream
-grep -rl '0.35.0' . | xargs perl -e "s/0.35.0/0.XX.0/" -pi # Where XX is
-=======
-<<<<<<< Updated upstream
-grep -rl '0.34.0' . | xargs perl -e "s/0.34.0/0.XX.0/" -pi # Where XX is
-=======
 grep -rl '0.36.0' . | xargs perl -e "s/0.36.0/0.XX.0/" -pi # Where XX is
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 the newer version
 ```
 
